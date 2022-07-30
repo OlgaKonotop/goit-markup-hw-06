@@ -439,8 +439,8 @@
 	</footer>
 
 	<!-- Modal window -->
-	<!-- is-hidden -->
-	<div class="backgrop " data-modal>
+
+	<div class="backgrop is-hidden" data-modal>
 		<div class="modal">
 			<button class="modal-btn" data-modal-close>
 				<svg class="modal-btn-icon" width="18px" height="18px">
@@ -479,13 +479,11 @@
 				</div>
 				<label class="register-checkbox">
 					<input class="register-checkbox-input visually-hidden" type="checkbox" name="agreement">
-					<svg class="register-icon-uncheck" width="16" height="15">
-						<use href="./images/icons.svg#uncheck"></use>
+					<svg class="register-icon" width="16" height="15">
+						<use class="register-icon-uncheck" href="./images/icons.svg#uncheck"></use>
+					 	<use class="register-icon-check" href="./images/icons.svg#check"></use>
 					</svg>
-					<svg class="register-icon-check" width="16" height="15">
-						<use href="./images/icons.svg#check"></use>
-					</svg>
-					<span class="register-checkbox-text">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a> </span>
+					<span class="register-checkbox-text">Погоджуюся з розсилкою та приймаю <a class="register-checkbox-link link" href="">Умови договору</a> </span>
 				</label>
 				<button class="register-form-btn" type="submit">Відправити</button>
 
