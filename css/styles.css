@@ -876,12 +876,10 @@ border-radius: 4px;
 outline: none;
 }
 
-.register-form-input:focus-within,
-.register-form-input:hover {
+.register-form-input:focus-within {
 border-color: #2196F3;
 }
-.register-form-input:focus-within + .register-form-icon,
-.register-form-input:hover + .register-form-icon{
+.register-form-input:focus-within + .register-form-icon {
 fill: #2196F3;
 }
 
@@ -915,7 +913,6 @@ letter-spacing: 0.01em;
 color: rgba(117, 117, 117, 0.5);
 }
 
-.register-form-message:hover,
 .register-form-message:focus{
 border-color: #2196F3;
 }
